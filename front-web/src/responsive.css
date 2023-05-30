@@ -1,0 +1,36 @@
+@media (min-width: 576px) {
+  .app-container {
+    padding: 0 40px !important;
+  }
+
+  .filter-container {
+    margin: 40px 0 40px 0 !important;
+  }
+
+  .total-sales-container {
+    padding: 40px 40px 60px 40px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .app-container {
+    padding: 0 15px !important;
+  }
+
+  .total-sales-container {
+    padding: 60px 100px 60px 40px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .total-sales-amount {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .app-container {
+    padding: 0 120px !important;
+  }
+}
